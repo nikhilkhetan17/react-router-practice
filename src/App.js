@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Services" element={<Services />} />
+        <Route path="/services" element={<Services />} />
         <Route path="*" element={<Error />} />
         {/*This route * always remain at the end  */}
       </Routes>
